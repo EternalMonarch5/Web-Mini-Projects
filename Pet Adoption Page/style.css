@@ -1,0 +1,32 @@
+
+h2 {
+    color: orangered;
+}
+h4 {
+    text-align: right;
+    color: #3c787e;
+  }
+ span {
+    color: orange;
+ }
+  .card {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 300px;
+    padding: 10px;
+  }
+ img {
+    border-radius: 15px;
+    width: 100%;
+  }
+
+  #pets {
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ @media (max-width:375px){
+  #pets {
+    flex-wrap:wrap;
+  }
+ }
