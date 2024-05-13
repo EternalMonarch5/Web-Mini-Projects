@@ -1,0 +1,31 @@
+.main{
+    margin: auto;
+    margin-top: 200px;
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+.main:hover{
+    box-shadow: 5px 5px 20px black;
+}
+body{
+    text-align: center;
+    background-color: aqua;
+}
+
+button{
+    font-size: large;
+    font-weight: 1000;
+    margin-top: 210px;
+    height:40px;
+    width: 80px;
+}
+button:hover{
+    box-shadow: 3px 3px 10px purple;
+    cursor: pointer;
+}
+.red{
+    background-color: brown;
+}
